@@ -5,4 +5,4 @@ project(link_me)
 include_directories("${PROJECT_SOURCE_DIR}/include")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
-add_executable(linked src/main.cpp src/node.cpp)
+add_executable(linked src/main.cpp src/node.cpp src/list.cpp)
